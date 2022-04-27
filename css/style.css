@@ -226,7 +226,7 @@ h1 {
     align-self: center;
     justify-content: center;
     font-family: 'GT America Regular';
-    padding-bottom: 100px;
+    padding-bottom: 150px;
 }
 
 .section-three img {
@@ -237,8 +237,28 @@ h1 {
     padding-left: 25px;
 }
 
-/* Section-four */
+.figcaption {
+    position: absolute;
+    top: 370%;
+    left: 62%;
+}
 
+.figcaption img {
+    width: 35px;
+}
+
+figcaption {
+    font-size: 15px;
+    padding-top: 20px;
+    position: absolute;
+    top: 368%;
+    left: 65%;
+}
+
+/* Section-four */
+.section-four__title h1 {
+    padding-bottom: 30px;
+}
 .section-four {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -297,6 +317,44 @@ select {
     padding: 12px 55px 15px 15px;
     font-size: 16px;
     margin-bottom: 20px;
+}
+
+.button__article:hover {
+    color: white;
+    background-color: black;
+}
+
+.red {
+    border-color: #f7531d;
+    color: #f7531d;
+}
+
+.white {
+    border-color: #ffb800;
+    color: #ffb800;
+}
+
+.mixed {
+    border-color: rgb(247,83,29);
+    border-color: linear-gradient(90deg, rgba(247,83,29,1) 0%, rgba(255,184,0,1) 48%);
+    color: rgb(247,83,29);
+    color: linear-gradient(90deg, rgba(247,83,29,1) 0%, rgba(255,184,0,1) 48%);
+}
+
+.red:hover {
+    color: white;
+    background-color: #f7531d;
+}
+
+.white:hover {
+    color: white;
+    background-color: #ffb800;
+}
+
+.mixed:hover {
+    color: white;
+    background: rgb(247,83,29);
+    background: linear-gradient(90deg, rgba(247,83,29,1) 0%, rgba(255,184,0,1) 48%);
 }
 
 
@@ -395,11 +453,3 @@ button {
     padding-left: 0;
 }
 
-/* Screenshots */
-.screenshot img {
-    width: 100%;
-}
-
-.one {
-    background: #fff8e6;
-}
