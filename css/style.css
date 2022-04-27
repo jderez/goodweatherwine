@@ -239,7 +239,7 @@ h1 {
 
 .figcaption {
     position: absolute;
-    top: 370%;
+    top: 321%;
     left: 62%;
 }
 
@@ -251,7 +251,7 @@ figcaption {
     font-size: 15px;
     padding-top: 20px;
     position: absolute;
-    top: 368%;
+    top: 318%;
     left: 65%;
 }
 
@@ -396,12 +396,20 @@ h3 {
     width: 316px;
 }
 
-/* Section six */
+/* Section six 
 .photo-grid {
     width: 316px;
 }
 
-
+<div class="one">
+<div class="fluid-container">
+    <section>
+        <h1>How the world’s best wine gets made.</h1>
+        <img class="photo-grid" src="images/World-Best-1.png.webp" alt="">
+        <img class="photo-grid" src="images/World-Best-2.png.webp" alt="">
+        <img class="photo-grid" src="images/World-Best-3.png.webp" alt="">
+    </section>
+    */
 
 /* Section nine */
 .button-winelist {
