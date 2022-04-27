@@ -38,7 +38,7 @@ main {
 }
 
 p {
-    font-size: 22px;
+    font-size: 20px;
 }
 
 h1 {
@@ -73,7 +73,6 @@ h1 {
 /* Header */
 .topbar {
     background: #fff8e6;
-    margin-bottom: 20px;
 }
 
 .topbar__wrapper {
@@ -134,17 +133,28 @@ h1 {
     max-width: 750px;
     margin: 0 auto;
     padding: 40px 0px;
-    font-size: 22px;
 }
 
 .section-one__text p {
     max-width: 400px;
+    padding-bottom: 60px;
 }
 
 .button__outline {
     background: none;
+    margin: auto;
     border: 1px solid black;
-    margin-bottom: 0;
+    text-align: center;
+}
+
+.flower {
+    position: absolute;
+    left: 8%;
+    top: 125%;
+}
+
+.flower img {
+    width: 185px;
 }
 
 /* Section two */
@@ -161,7 +171,7 @@ h1 {
 .section-two {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    padding-top: 100px;   
+    padding-top: 150px;   
     padding-bottom: 150px; 
 }
 
@@ -369,5 +379,4 @@ button {
 
 .one {
     background: #fff8e6;
-    margin-bottom: 20px;
 }
