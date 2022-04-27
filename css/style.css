@@ -39,6 +39,7 @@ main {
 
 p {
     font-size: 20px;
+    font-weight: 1;
 }
 
 h1 {
@@ -172,7 +173,7 @@ h1 {
     display: grid;
     grid-template-columns: 1fr 1fr;
     padding-top: 150px;   
-    padding-bottom: 150px; 
+    padding-bottom: 110px; 
 }
 
 .section-two__text h2 {
@@ -190,7 +191,29 @@ h1 {
     align-content: space-between;
 }
 
+.section-two__body-text {
+    align-items: flex-start;
+}
+
+.section-two__body-text p:nth-child(1) {
+    padding-bottom: 30px;
+}
+
+.section-two__body-text p:nth-child(2) {
+    padding-bottom: 30px;
+}
+
 /* Section-three */
+.flower-small {
+    position: absolute;
+    top: 268%;
+    left: 43%;
+}
+
+.flower-small img {
+    width: 94px;
+}
+
 .section-three ol {
     list-style-image: url('../images/image_73.png');
 }
@@ -198,7 +221,7 @@ h1 {
 .section-three {
     display: grid;
     grid-template-columns: 550px 500px;
-    font-weight: 500;
+    font-weight: 100;
     font-size: 22px;
     align-self: center;
     justify-content: center;
