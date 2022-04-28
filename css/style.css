@@ -518,3 +518,7 @@ button {
 .one {
     background-color: #fff8e6;
 }
+
+.screenshot img {
+  width: 100%;
+}
