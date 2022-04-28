@@ -1,11 +1,11 @@
 @font-face {
     font-family: 'GT America Regular';
-    src: url("../fonts/FontsFree-Net-GT-America-Regular-1.ttf") format("opentype");
+    src: url("/fonts/FontsFree-Net-GT-America-Regular-1.ttf") format("opentype");
 }
 
 @font-face {
     font-family: 'Domaine Display Narrow';
-    src: url("../fonts/DomaineDispNar-Regular.otf") format("opentype");
+    src: url("/fonts/DomaineDispNar-Regular.otf") format("opentype");
 }
 
 * {
@@ -21,7 +21,8 @@ body {
     font-family: "GT America Regular", "Helvetica Neue", Arial, "Lucida Grande", sans-serif;
     letter-spacing: 0.4px;
     line-height: 1.8rem;
-    font-weight: 300;
+    font-weight: 1;
+    font-style: normal;
 }
 
 main {
@@ -226,7 +227,7 @@ h1 {
     align-self: center;
     justify-content: center;
     font-family: 'GT America Regular';
-    padding-bottom: 150px;
+    padding-bottom: 100px;
 }
 
 .section-three img {
@@ -237,22 +238,16 @@ h1 {
     padding-left: 25px;
 }
 
-.figcaption {
-    position: absolute;
-    top: 321%;
-    left: 62%;
-}
-
 .figcaption img {
     width: 35px;
+    padding-right: 10px;
 }
 
 figcaption {
     font-size: 15px;
     padding-top: 20px;
-    position: absolute;
-    top: 318%;
-    left: 65%;
+    position: relative;
+    left: 208%;
 }
 
 /* Section-four */
@@ -263,7 +258,7 @@ figcaption {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     width: 1050px;
-    margin-bottom: 100px;
+    margin-bottom: 150px;
     grid-gap: 55px;
 }
 
@@ -361,6 +356,7 @@ select {
 .parent {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    padding-bottom: 150px;
 }
 
 .image-leaf img{
@@ -396,20 +392,98 @@ h3 {
     width: 316px;
 }
 
-/* Section six 
+/* Section six */
 .photo-grid {
     width: 316px;
+    display: inline-block;
+    padding: 10px;
+    margin: auto;
 }
 
-<div class="one">
-<div class="fluid-container">
-    <section>
-        <h1>How the world’s best wine gets made.</h1>
-        <img class="photo-grid" src="images/World-Best-1.png.webp" alt="">
-        <img class="photo-grid" src="images/World-Best-2.png.webp" alt="">
-        <img class="photo-grid" src="images/World-Best-3.png.webp" alt="">
-    </section>
-    */
+.section-six {
+    padding-bottom: 60px;
+}
+
+.section-six__title {
+    padding-top: 80px;
+    width: 700px;
+    text-align: center;
+    margin: auto;
+}
+
+.section-six__grid {
+    text-align: center;
+}
+
+.flower-flipped img {
+    width: 120px;
+    transform: rotate(31deg);
+    position: absolute;
+    left: 79%;
+    top: 665%;
+}
+
+.grass img {
+    width: 150px;
+    position: absolute;
+    top: 685%;
+    left: 5%;
+}
+
+/* Section seven */
+.section-seven {
+    padding-top: 180px;
+    margin: auto;
+}
+
+.section-seven__text p {
+    width: 37.5%;
+    font-size: 22px;
+    line-height: 28px;
+    padding-bottom: 25px;
+}
+
+/* Section eight */
+
+.section-eight ol {
+    list-style-image: url('../images/Bullet.png.webp');
+    width: 400px;
+}
+
+.section-eight {
+    display: grid;
+    grid-template-columns: 550px 500px;
+    font-weight: 100;
+    font-size: 22px;
+    align-self: center;
+    justify-content: center;
+    font-family: 'GT America Regular';
+    padding-bottom: 100px;
+}
+
+.section-eight img {
+    width: 399px;
+}
+.section-eight li {
+    padding-bottom: 30px;
+    padding-left: 25px;
+    font-size: 18px;
+}
+
+.section-eight__title {
+    padding-bottom: 30px;
+    padding-left: 25px;
+}
+
+.name, .buyer {
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.buyer {
+    font-weight: 100;
+    font-size: 14px;
+}
 
 /* Section nine */
 .button-winelist {
@@ -419,6 +493,92 @@ h3 {
     text-align: center;
     margin-left: 0;
 }
+
+.line-white {
+    padding-top: 40px;
+    margin-bottom: 200px;
+}
+
+/* Quote */
+.quote h1 {
+    font-size: 48px;
+    font-weight: 100;
+    text-align: left;
+    padding: 60px;
+    line-height: 1;
+    max-width: 971px;
+    margin-top: 150px;
+    margin-bottom: 60px;
+}
+
+.instagram img {
+    width: 100%;
+    margin-bottom: 150px;
+}
+
+/* Last section */
+.articles {
+    display: flex;
+    margin-bottom: 200px;
+    text-align: center;
+    position: relative;
+}
+
+.article_1 h3 {
+    text-align: center;
+}
+
+.article_1, .article_2 {
+    background-color: #fff8e6;
+    padding: 230px 135px;
+}
+
+.article_1 img {
+    max-width: 140px;
+}
+
+.postmates {
+    position: absolute;
+    top: 80%;
+    left: 19%;
+}
+
+.container-wrapper {
+    max-width: 1150px;
+}
+
+.e-mail {
+    border: none;
+    background: none;
+    border-bottom: 1px solid black;
+    display: block;
+    width: 250px;
+    height: 50px;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.button__submit {
+    border-radius: 50px;
+    padding: 10px 25px;
+    margin-left: 30px;
+    font-size: 22px;
+}
+
+form {
+    display: flex;
+    position: absolute;
+    top: 80%;
+    left: 58%;
+}
+ 
+
+::placeholder {
+    color: black;
+    font-size: 22px;
+}
+
+
 
 /* Footer */
 button {
@@ -517,4 +677,8 @@ button {
 
 .one {
     background-color: #fff8e6;
+}
+
+.two {
+    background-color: #fbfbee
 }
